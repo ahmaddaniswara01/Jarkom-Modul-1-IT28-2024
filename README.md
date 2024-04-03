@@ -10,4 +10,10 @@
 ## Daftar Soal yang Dikerjakan
 
 - [ATM or ATP or FTP](#ATM-or-ATP-or-FTP)
-- 
+- [whoami](#whoami)
+- [How Many Packets](#How-Many-Packets)
+- [trace him](#trace-him)
+- [malwleowleo](#malwleowleo)
+- [creds](#creds)
+
+## ATM or ATP or FTP  
