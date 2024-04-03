@@ -1,6 +1,6 @@
 # Jarkom-Modul-1-IT28-2024
 
-# Anggota Kelompok IT28
+## Anggota Kelompok IT28
 
 | Nama  | NRP | 
 | ----------- | ----------- |
