@@ -31,7 +31,7 @@
 ## ATM or ATP or FTP 
 
 ### Deskripsi soal
-
+    Halo halo 
 ### Penyelesaian soal
 
 ## whoami
@@ -47,5 +47,19 @@
 ### Penyelesaian soal
 
 ## trace him
+
+### Deskripsi soal
+
+### Penyelesaian soal
+
 ## malwleowleo
+
+### Deskripsi soal
+
+### Penyelesaian soal
+
 ## creds
+
+### Deskripsi soal
+
+### Penyelesaian soal
