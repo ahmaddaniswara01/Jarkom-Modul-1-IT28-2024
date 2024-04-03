@@ -9,5 +9,5 @@
 
 ## Daftar Soal yang Dikerjakan
 
-- [ATM or ATP or FTP](#ATM or ATP or FTP)
+- [ATM or ATP or FTP](#ATM-or-ATP-or-FTP)
 - 
