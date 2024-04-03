@@ -32,7 +32,8 @@
 
 ### Deskripsi soal
 
-    Halo halo, jadi begini ahahahahah 
+Pada soal ini praktikan diminta untuk menganalisis kejadian bruteforce login yang sedang dialami oleh Pradityo ketika Pradityo mencoba mengembangkan server FTP
+(nc 10.15.40.20 10004)
     
 ### Penyelesaian soal
 
