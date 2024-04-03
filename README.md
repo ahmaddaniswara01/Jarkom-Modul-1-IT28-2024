@@ -7,3 +7,6 @@
 | Angella Christie | 5027221047 | 
 | Ahmad Fauzan Daniswara | 5027221057 | 
 
+## Daftar Soal yang Dikerjakan
+
+- [ATM or ATP or FTP]
