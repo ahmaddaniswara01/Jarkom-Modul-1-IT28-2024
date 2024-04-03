@@ -31,7 +31,9 @@
 ## ATM or ATP or FTP 
 
 ### Deskripsi soal
-    Halo halo 
+
+    Halo halo, jadi begini ahahahahah 
+    
 ### Penyelesaian soal
 
 ## whoami
