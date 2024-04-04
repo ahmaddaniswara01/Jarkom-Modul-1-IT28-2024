@@ -32,25 +32,37 @@
 
 ### Deskripsi soal
 
-Pada soal ini praktikan diminta untuk menganalisis kejadian bruteforce login yang sedang dialami oleh Pradityo ketika Pradityo mencoba mengembangkan server FTP
+Pada soal ini praktikan diminta untuk menganalisis kejadian bruteforce login yang sedang dialami oleh Pradityo ketika Pradityo mencoba mengembangkan server FTP.
     
 ### Penyelesaian soal
 
-1. Buka WSL lalu salin `nc 10.15.40.20 10004`
-2. Kemudian, muncul sebuah pertanyaan yaitu apa password yang berhasil didapatkan hacker setelah melakukan bruteforce login ftp
-3. Lalu buka file wireshark bernama `ftp.pcap` lalu follow tcp streamnya
-4. Jawaban mengenai password yang berhasil didapat oleh hacker ada pada stream/halaman ke 319 dengan password yaitu `m4y_th3_Kn!fe_ch1p_&_sh4tter`
+Berikut langkah-langkah pengerjaan soal ATM or ATP or FTP :
+1. Buka WSL lalu salin `nc 10.15.40.20 10004`.
+2. Kemudian, muncul sebuah pertanyaan yaitu apa password yang berhasil didapatkan hacker setelah melakukan bruteforce login ftp.
+3. Lalu buka file wireshark bernama `ftp.pcap` lalu follow tcp streamnya.
+4. Jawaban mengenai password yang berhasil didapat oleh hacker ada pada stream/halaman ke 319 dengan password yaitu `m4y_th3_Kn!fe_ch1p_&_sh4tter`.
    ![Output jawaban](https://i.imgur.com/ZoPv5O9.png)
-5. Setelah menjawab pertanyaan dan hasilnya benar, flag pun berhasil didapatkan
+5. Setelah menjawab pertanyaan dan hasilnya benar, flag pun berhasil didapatkan.
    ![Output jawaban](https://i.imgur.com/AEmjcnD.png)
 
 ## whoami
 
 ### Deskripsi soal
 
-Pada soal ini praktikan diminta untuk menemukan identitas attacker pada kasus creds 
+Pada soal ini praktikan diminta untuk menemukan identitas attacker pada kasus creds.
 
 ### Penyelesaian soal
+
+Berikut langkah-langkah pengerjaan soal whoami :
+1. Buka WSL lalu salin `nc 10.15.40.20 10009`.
+2. Lalu muncullah sebuah pertanyaan yaitu siapa nama attacker yang melakukan serangan ini?
+3. Kemudian buka file wireshark yang sama pada kasus creds yaitu evidence.pcap lalu follow tcp streamnya.
+4. Jawaban mengenai identitas attacker ada pada stream/halaman ketujuh dengan jawaban sebagai berikut :
+   ![Output jawaban](https://i.imgur.com/PQqBzDU.png)
+5. Lalu kode kode tersebut di decode ke website `www.base64decode.net` dan menghasilkan sebuah kalimat yaitu `Hello my name is Paul Atreides
+`.
+   ![Output jawaban](https://i.imgur.com/9jZj0lX.png)
+6. Setelah itu, jawab dengan nama Paul-Atreides dan flag pun berhasil didapatkan.   
 
 ## How Many Packets
 
