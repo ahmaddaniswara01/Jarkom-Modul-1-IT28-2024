@@ -36,6 +36,12 @@ Pada soal ini praktikan diminta untuk menganalisis kejadian bruteforce login yan
     
 ### Penyelesaian soal
 
+1. Buka WSL lalu salin `nc 10.15.40.20 10004`
+2. Kemudian, muncul sebuah pertanyaan yaitu apa password yang berhasil didapatkan hacker setelah melakukan bruteforce login ftp
+3. Lalu buka file wireshark bernama `ftp.pcap` lalu follow tcp streamnya
+4. Jawaban mengenai password yang berhasil didapat oleh hacker ada pada stream/halaman ke 319 dengan password yaitu `m4y_th3_Kn!fe_ch1p_&_sh4tter`
+   ![Output jawaban](https://i.imgur.com/ZoPv5O9.png)
+
 ## whoami
 
 ### Deskripsi soal
