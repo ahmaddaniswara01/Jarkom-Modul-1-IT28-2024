@@ -91,16 +91,48 @@ Berikut langkah-langkah pengerjaan soal How Many Packets :
 
 ### Deskripsi soal
 
+Selain menghitung jumlah packet, coba lacak juga ip penyerang tersebut!
+
 ### Penyelesaian soal
 
+Berikut langkah-langkah pengerjaan soal trace him :
+1. Buka terminal WSL/Linux dan salin `nc 10.15.40.20 10006` untuk mengetahui pertanyaan hint untuk menemukan flagnya
+2. Lalu buka file wireshark yang sama seperti dengan `ATM or ATP or FTP` yaitu file `ftp.pcap` dan melakukan filter menggunakan `http` yang nantinya akan ditujukan ke `tcp.stream eq 2`
+   ![Screenshot 2024-03-30 230010](https://github.com/ahmaddaniswara01/Jarkom-Modul-1-IT28-2024/assets/131789727/42c11ffd-2be6-48d6-a06f-0ca13b083f46)
+3. Pilih yang terdapat responses, dan akan menemukan IP yang sesuai dengan pertanyaan hintnya
+4. Lalu menemukan flagnya
+   ![trace him](https://github.com/ahmaddaniswara01/Jarkom-Modul-1-IT28-2024/assets/131789727/099ff503-cf13-40e5-b60a-eca31e8686ea)
+     
 ## malwleowleo
 
 ### Deskripsi soal
 
+Dapatkah kamu menemukan file malware yang dikirim oleh attacker melalui ftp?
+
 ### Penyelesaian soal
 
+Berikut langkah-langkah pengerjaan soal malwleowleo :
+1. Buka terminal WSL/Linux dan salin `nc 10.15.40.20 10008` untuk mengetahui pertanyaan hint untuk menemukan flagnya
+2. Lalu buka file wireshark yang sama seperti dengan `creds` yaitu file `evidence.pcap` dan melakukan filter menggunakan `ftp` yang nantinya akan ditujukan ke `tcp.stream eq 2`
+   ![Screenshot 2024-03-30 220557](https://github.com/ahmaddaniswara01/Jarkom-Modul-1-IT28-2024/assets/131789727/97dc82d7-0c32-4143-81fc-d681c1cb0993)
+3. Pada bagian passive mode terdapat nama file malware yang di cari sesuai pertanyaan hintnya
+4. Lalu menemukan flagnya
+   ![malwleo](https://github.com/ahmaddaniswara01/Jarkom-Modul-1-IT28-2024/assets/131789727/cb5264e2-6b19-4983-9d16-6c239e3777f1)
 ## creds
 
 ### Deskripsi soal
 
+Attacker menyadari jika dia bisa membuat clone ftp server dari target, temukan kredensialn dari server ftp yang dibuat oleh attacker
+
 ### Penyelesaian soal
+
+Berikut langkah-langkah pengerjaan soal creds :
+1. Buka terminal WSL/Linux dan salin `nc 10.15.40.20 10007` untuk mengetahui pertanyaan hint untuk menemukan flagnya
+2. Lalu buka file `evidence.pcap` pada wireshark dan melakukan filter menggunakan `ftp` yang nantinya akan ditujukan ke `tcp.stream eq 2`
+   ![Screenshot 2024-03-30 221525](https://github.com/ahmaddaniswara01/Jarkom-Modul-1-IT28-2024/assets/131789727/ba669ad6-a2f8-4907-917f-b4cef0fbbf4d)
+3. Pada follow stream diatas terdapat username dan password yang dibutuhkan untuk menjawab pertanyaan hintnya
+4. Lalu menemukan flagnya
+   ![creds](https://github.com/ahmaddaniswara01/Jarkom-Modul-1-IT28-2024/assets/131789727/3c4f1026-14c7-4471-a51f-727b0e420ed9)
+
+
+### Sekian Laporan Resmi Modul 1 
