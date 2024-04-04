@@ -41,6 +41,8 @@ Pada soal ini praktikan diminta untuk menganalisis kejadian bruteforce login yan
 3. Lalu buka file wireshark bernama `ftp.pcap` lalu follow tcp streamnya
 4. Jawaban mengenai password yang berhasil didapat oleh hacker ada pada stream/halaman ke 319 dengan password yaitu `m4y_th3_Kn!fe_ch1p_&_sh4tter`
    ![Output jawaban](https://i.imgur.com/ZoPv5O9.png)
+5. Setelah menjawab pertanyaan dan hasilnya benar, flag pun berhasil didapatkan
+   ![Output jawaban](https://i.imgur.com/AEmjcnD.png)
 
 ## whoami
 
